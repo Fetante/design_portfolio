@@ -9,7 +9,7 @@ Hem
 
 Hej och välkommen till min sida!
 
-![Här är jag](%assets_url%/img/bild.jpg)
+![En bild på mig](%assets_url%/img/bild.jpg) {.small}
 
 Min namn är Andreas och jag har hunnit fylla 38 år detta år. För tillfället pluggar jag webbprogrammering och databaser här på Blekinge Tekniska Högskola. 
 

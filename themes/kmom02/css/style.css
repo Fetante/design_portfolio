@@ -6458,6 +6458,144 @@ pre code {
 }
 
 * {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Placement */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #7FFFD4;
+}
+
+.header {
+  flex: 0 0 auto;
+  border-bottom: 4px solid #f0f;
+  background-color: #222;
+}
+.header h1, .header a, .header p {
+  color: #fff;
+}
+.header .site-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 300px;
+  max-height: 30%;
+  padding: 3em 3em 0;
+}
+@media (max-width: 767px) {
+  .logo {
+    padding: 1em 1em 1em 0;
+    max-width: 30%;
+  }
+}
+.logo img {
+  background-color: #7FFFD4;
+  width: 100%;
+}
+
+.title {
+  padding: 3em 3em 3em 0;
+}
+@media (max-width: 767px) {
+  .title {
+    padding: 1em 1em 1em 0;
+  }
+}
+.title * {
+  color: #111;
+}
+.title p {
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px solid #f0f;
+  background-color: #222;
+  color: #fff;
+  padding: 3rem 6rem;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.footer .social {
+  font-size: 2rem;
+}
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer a {
+    display: inline-block;
+    margin-top: 25px;
+  }
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+.main img {
+  width: 20%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.7rem;
+  color: #444;
+}
+
+p, td, th, li, dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 2px solid #e75d5d;
+}
+
+li {
+  margin: 15px 0;
+}
+
+* {
   font-family: "Coming Soon";
 }
 
