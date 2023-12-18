@@ -1,0 +1,37 @@
+@import "../../shared/fontawesome/scss/fontawesome";
+$fa-font-path: "../../shared/fontawesome/webfonts";
+@import "../../shared/fontawesome/scss/brands";
+@import "../../shared/fontawesome/scss/solid";
+@import "../../shared/fontawesome/scss/regular";
+
+@import "../../node_modules/normalize.css/normalize";
+@import "variables-dark";
+
+@import "analysis";
+@import "blockquote";
+@import "code";
+@import "init";
+@import "header";
+@import "footer";
+@import "main";
+@import "typography";
+@import "nav";
+@import "list";
+@import "technologies";
+@import "technology";
+@import "images";
+
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;700;900&family=Open+Sans&family=Yesteryear&display=swap");
+
+* {
+  font-family: "Coming Soon";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}

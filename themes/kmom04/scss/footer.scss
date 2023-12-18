@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px solid #f0f;
+  background-color: $background-color-footer;
+  color: $font-color;
+  padding: 3rem 6rem;
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+    padding-right: 10px;
+  }
+
+  .social {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+
+    a {
+      display: inline-block;
+      margin-top: 25px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.header {
+  flex: 0 0 auto;
+  border-bottom: 4px solid #f0f;
+  background-color: $background-color-header;
+
+  h1,
+  a,
+  p {
+    color: $font-color;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.logo {
+  width: 300px;
+  max-height: 30%;
+  padding: 3em 3em 0;
+
+  @media (max-width: 767px) {
+    padding: 1em 1em 1em 0;
+    max-width: 30%;
+  }
+
+  img {
+    background-color: #7fffd4;
+    width: 100%;
+  }
+}
+
+.title {
+  padding: 3em 3em 3em 0;
+
+  @media (max-width: 767px) {
+    padding: 1em 1em 1em 0;
+  }
+
+  * {
+    color: #111;
+  }
+
+  p {
+    font-style: italic;
+  }
+}
