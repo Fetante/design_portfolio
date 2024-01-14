@@ -1,0 +1,38 @@
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 2px solid #e75d5d;
+  }
+}
+
+.nav {
+  .home {
+    color: $home-color;
+  }
+
+  .about {
+    color: $about-color;
+  }
+
+  .analysis {
+    color: $analysis-color;
+  }
+
+  .docs {
+    color: $docs-color;
+  }
+
+  //   .gallery {
+  //     color: $gallery-color;
+  //   }
+
+  .report {
+    color: $report-color;
+  }
+
+  .technologies {
+    color: $technology-color;
+  }
+}

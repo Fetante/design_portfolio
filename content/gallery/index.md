@@ -4,6 +4,8 @@ Description: This is our gallery
 Template: gallery
 ---
 
+# Gallery {.gallery}
+
 <div class="gallery"> 
     <div class="gallery-card">
         <a href="%base_url%/image/Elephant1.jpg" target="_blank">
@@ -92,10 +94,3 @@ Template: gallery
 <div class="youtube-vid">
     <iframe  src="https://www.youtube.com/embed/EUz0dgPZi6U?si=dkKPvYpx4NiYIoFf" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
-
-<!-- <picture>
-    <a class="gallery-card" href="%base_url%/image/Elephant4.jpg" target="_blank">
-        <source media="(min-width: 668px)" srcset="%base_url%/image/Elephant1.jpg?w=1500&h=1700">
-        <img src="%base_url%/image/Elephant1.jpg&w=667" alt="An elephant">
-    </a>
-</picture> -->

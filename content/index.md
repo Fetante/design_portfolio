@@ -1,24 +1,22 @@
 ---
-Title: Home
+Title: home
 Description: This is our index page.
 ---
 
-Hem
-==========================
+![En bild på mig](%assets_url%/img/bild.jpg){.small}
 
+<div>
+    Hej och välkommen till min sida!
+    Mitt namn är Andreas och jag har hunnit fylla 38 år detta år. För tillfället pluggar jag webbprogrammering och databaser här på Blekinge Tekniska Högskola.
 
-Hej och välkommen till min sida!
+    Jag läser även en YH-utbildning till .NET-utvecklare.
 
-![En bild på mig](%assets_url%/img/bild.jpg) {.small}
+    Jag är bosatt i Munkedal, ett litet samhälle med ungefär 10 000 invånare, som ligger i västra delen av Sverige cirka 10 mil norr om Göteborg.
 
-Min namn är Andreas och jag har hunnit fylla 38 år detta år. För tillfället pluggar jag webbprogrammering och databaser här på Blekinge Tekniska Högskola. 
+    2019 tog jag nationalekonomexamen från handels i Göteborg, men har på senare tid kommit underfund med att jag är mer intresserad av programmering och IT.
 
-Jag läser även en YH-utbildning till .NET-utvecklare.
+    Jag har arbetat bland annat arbetat som ekonom på Skatteverket. Tidigare erfarenhet från programmering kommer mestadels från studier inom Webbutveckling. Jag tycker mig ha grundliga kunskaper om lite olika programmeringsspråk, t.ex. C#, Java, Javascript och SQL.
 
-Jag är bosatt i Munkedal, ett litet samhälle med ungefär 10 000 invånare, som ligger i västra delen av Sverige cirka 10 mil norr om Göteborg.
+    På fritiden så tycker jag om att kolla på sport och tillbringa tid med mina barn.
 
-2019 tog jag nationalekonomexamen från handels i Göteborg, men har på senare tid kommit underfund med att jag är mer intresserad av programmering och IT.
-
-Jag har arbetat bland annat arbetat som ekonom på Skatteverket. Tidigare erfarenhet från programmering kommer mestadels från studier inom Webbutveckling. Jag tycker mig ha grundliga kunskaper om lite olika programmeringsspråk, t.ex. C#, Java, Javascript och SQL.
-
-På fritiden så tycker jag om att kolla på sport och tillbringa tid med mina barn.
+</div>

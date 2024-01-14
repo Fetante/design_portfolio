@@ -1,10 +1,10 @@
 ---
-Title: Technologies
+Title: technologies
 Description: This is a landing page
 Template: technologies
 ---
 
-# Tech
+# Tech{.technologies}
 
 <div class="box box1">
     <h1>Git</h1>

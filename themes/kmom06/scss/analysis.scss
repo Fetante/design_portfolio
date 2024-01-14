@@ -1,0 +1,29 @@
+.analysis-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1px solid rgb(108, 150, 150);
+}
+
+.analysis-box {
+  margin: 1em;
+
+  h2,
+  a {
+    margin: auto 0;
+  }
+}
+
+.analysis h1 {
+  text-align: center;
+}
+
+.analysis h3 {
+  margin-top: 1em;
+}
+
+.analysis p {
+  margin-bottom: 0.2em;
+}

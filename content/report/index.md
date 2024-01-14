@@ -1,9 +1,9 @@
 ---
-Title: Report
+Title: report
 Description: My reports for this course
+Template: report
 ---
 
-Report
-========
+# Report{.report}
 
-* [kmom01](report/kmom01)
+- [kmom01](report/kmom01)
